@@ -42,7 +42,8 @@ More resource usage	                                                           L
 Dockerfile --describes steps to create a docker image. All applications,dependencies are defined in a dockerfile to build docker image.
 
 ----What is docker demon and engine?
-Docker Engine is the core product of Docker, including its daemon (dockerd) as well as its CLI (docker). Docker Daemon is simply a part of Docker Engine.
+The Docker daemon ( dockerd ) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes.
+
 
 Docker Engine is an open source containerization technology for building and containerizing your applications. Docker Engine acts as a client-server application with:
 APIs which specify interfaces that programs can use to talk to and instruct the Docker daemon
